@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luke Coblentz — Cybersecurity Student & CTO @ Coravu</title>
+  <meta name="description" content="Luke Coblentz — cybersecurity student at the University of South Florida and CTO of Coravu LLC. Seeking a summer 2026 internship in cybersecurity, network defense, or security engineering." />
+  <meta name="theme-color" content="#0f172a" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'monospace'],
+          },
+          colors: {
+            accent: {
+              DEFAULT: '#2dd4bf',
+              soft: '#5eead4',
+              deep: '#0d9488',
+            },
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    :focus-visible { outline: 2px solid #2dd4bf; outline-offset: 2px; border-radius: 4px; }
+    .section-rule { background: linear-gradient(90deg, transparent, rgba(45,212,191,0.4), transparent); }
+  </style>
+</head>
+
+<body class="bg-slate-950 text-slate-200 font-sans antialiased selection:bg-accent/30 selection:text-white">
+
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-accent focus:text-slate-950 focus:px-3 focus:py-2 focus:rounded-md focus:font-medium">Skip to content</a>
+
+  <header class="sticky top-0 z-40 backdrop-blur bg-slate-950/80 border-b border-slate-800/60">
+    <nav aria-label="Primary" class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#hero" class="font-semibold tracking-tight text-slate-100 hover:text-accent transition-colors">
+        Luke<span class="text-accent">.</span>Coblentz
+      </a>
+      <ul class="hidden md:flex items-center gap-7 text-sm text-slate-300">
+        <li><a class="hover:text-accent transition-colors" href="#about">About</a></li>
+        <li><a class="hover:text-accent transition-colors" href="#experience">Experience</a></li>
+        <li><a class="hover:text-accent transition-colors" href="#projects">Projects</a></li>
+        <li><a class="hover:text-accent transition-colors" href="#skills">Skills</a></li>
+        <li><a class="hover:text-accent transition-colors" href="#awards">Awards</a></li>
+        <li><a class="hover:text-accent transition-colors" href="#contact">Contact</a></li>
+      </ul>
+      <a href="./assets/resume.pdf" class="hidden sm:inline-flex items-center gap-2 text-sm font-medium px-3 py-1.5 rounded-md border border-accent/40 text-accent hover:bg-accent hover:text-slate-950 transition-colors">
+        Resume
+      </a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section id="hero" class="relative overflow-hidden">
+      <div class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,rgba(45,212,191,0.08),transparent_60%)]"></div>
+      <div class="max-w-5xl mx-auto px-6 pt-20 pb-24 sm:pt-28 sm:pb-32">
+        <div class="flex flex-col-reverse md:flex-row md:items-center gap-10 md:gap-14">
+          <div class="flex-1">
+            <p class="font-mono text-xs uppercase tracking-[0.2em] text-accent mb-4">Sarasota, FL</p>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.05]">
+              Luke Coblentz
+            </h1>
+            <p class="mt-4 text-lg sm:text-xl text-slate-300">
+              Cybersecurity Student at USF &nbsp;<span class="text-slate-600">/</span>&nbsp; CTO @ Coravu
+            </p>
+            <p class="mt-6 max-w-2xl text-slate-400 leading-relaxed">
+              I work at the intersection of security and full-stack engineering — from network forensics and vulnerability assessment in the classroom, to architecting multi-tenant systems and shipping production software in industry. Currently seeking a <span class="text-slate-200 font-medium">summer 2026 internship</span> in cybersecurity, network defense, or security engineering.
+            </p>
+
+            <div class="mt-8 flex flex-wrap gap-3">
+              <a href="./assets/resume.pdf" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-md bg-accent text-slate-950 font-medium hover:bg-accent-soft transition-colors">
+                View Resume
+              </a>
+              <a href="https://www.linkedin.com/in/luke-coblentz-99a6a7292/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-md border border-slate-700 text-slate-200 hover:border-accent hover:text-accent transition-colors">
+                LinkedIn
+              </a>
+              <a href="https://github.com/lukecoblentz" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-md border border-slate-700 text-slate-200 hover:border-accent hover:text-accent transition-colors">
+                GitHub
+              </a>
+              <a href="mailto:lukecoblentz.dev@gmail.com" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-md border border-slate-700 text-slate-200 hover:border-accent hover:text-accent transition-colors">
+                Email
+              </a>
+            </div>
+          </div>
+
+          <div class="shrink-0 mx-auto md:mx-0">
+            <div class="relative">
+              <div class="absolute -inset-1 rounded-full bg-gradient-to-br from-accent/40 via-accent/0 to-accent/20 blur-md"></div>
+              <img
+                src="./assets/profile.jpg"
+                alt="Portrait of Luke Coblentz"
+                width="208"
+                height="208"
+                class="relative h-40 w-40 sm:h-52 sm:w-52 rounded-full object-cover ring-2 ring-slate-800 shadow-xl"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="border-t border-slate-800/60">
+      <div class="max-w-5xl mx-auto px-6 py-20">
+        <div class="flex items-center gap-4 mb-10">
+          <h2 class="text-2xl sm:text-3xl font-semibold text-white tracking-tight">About</h2>
+          <div class="flex-1 h-px section-rule"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-10">
+          <div class="md:col-span-2 space-y-5 text-slate-300 leading-relaxed">
+            <p>
+              I'm a junior at the <span class="text-white font-medium">University of South Florida</span> pursuing a B.S. in Information Assurance &amp; Cybersecurity Management, with a <span class="text-white font-medium">3.86 GPA</span> and hands-on experience in network forensics, incident response, and vulnerability assessment. My focus is on the security side of full-stack systems and federal cybersecurity work.
+            </p>
+            <p>
+              Alongside my degree, I'm <span class="text-white font-medium">Chief Technology Officer at Coravu LLC</span>, a pre-launch B2B SaaS platform replacing résumé-based recruiting with structured student competitions. I architected and shipped the platform from zero to production-ready, leading all engineering and technical decisions including the multi-tenant security architecture.
+            </p>
+            <p class="text-slate-200">
+              I'm currently seeking a summer 2026 internship in <span class="text-accent">cybersecurity, network defense, or security engineering</span>.
+            </p>
+          </div>
+
+          <aside class="md:border-l md:border-slate-800/60 md:pl-8">
+            <dl class="space-y-5 text-sm">
+              <div>
+                <dt class="font-mono text-xs uppercase tracking-wider text-slate-500">Education</dt>
+                <dd class="mt-1 text-slate-200">B.S. Information Assurance &amp; Cybersecurity Management</dd>
+                <dd class="text-slate-400">University of South Florida</dd>
+                <dd class="text-slate-500 text-xs mt-1">GPA 3.86 · Junior</dd>
+              </div>
+              <div>
+                <dt class="font-mono text-xs uppercase tracking-wider text-slate-500">Location</dt>
+                <dd class="mt-1 text-slate-200">Sarasota, FL</dd>
+              </div>
+              <div>
+                <dt class="font-mono text-xs uppercase tracking-wider text-slate-500">Looking for</dt>
+                <dd class="mt-1 text-slate-200">Summer 2026 Internship</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="border-t border-slate-800/60">
+      <div class="max-w-5xl mx-auto px-6 py-20">
+        <div class="flex items-center gap-4 mb-10">
+          <h2 class="text-2xl sm:text-3xl font-semibold text-white tracking-tight">Experience</h2>
+          <div class="flex-1 h-px section-rule"></div>
+        </div>
+
+        <ol class="relative space-y-8 md:before:absolute md:before:left-[7px] md:before:top-2 md:before:bottom-2 md:before:w-px md:before:bg-slate-800">
+
+          <li class="relative md:pl-10">
+            <span class="hidden md:block absolute left-0 top-2 h-3.5 w-3.5 rounded-full bg-accent ring-4 ring-slate-950" aria-hidden="true"></span>
+            <article class="group rounded-lg border border-slate-800 bg-slate-900/40 hover:border-slate-700 transition-colors p-6">
+              <header class="flex items-baseline justify-between gap-4">
+                <h3 class="text-lg font-semibold text-white leading-snug min-w-0">
+                  Chief Technology Officer
+                  <span class="text-slate-400 font-normal"> · Coravu LLC</span>
+                </h3>
+                <div class="shrink-0 text-right font-mono text-xs uppercase tracking-wider whitespace-nowrap">
+                  <p class="text-accent">Spring 2026 – Present</p>
+                </div>
+              </header>
+              <p class="mt-3 text-slate-300 leading-relaxed">
+                Pre-launch B2B SaaS platform replacing résumé-based hiring with structured student competitions. Architected and shipped the platform from zero to production-ready and lead all engineering and technical decisions.
+              </p>
+              <ul class="mt-4 space-y-2 text-slate-400 text-sm">
+                <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent shrink-0"></span>Designed multi-tenant security architecture with role-based access control across multiple user roles.</li>
+                <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent shrink-0"></span>Built event-driven backend powering transactional email and notification flows.</li>
+                <li class="flex gap-3"><span class="mt-2 h-1 w-1 rounded-full bg-accent shrink-0"></span>Set up production observability and monitoring stack.</li>
+              </ul>
+            </article>
+          </li>
+
+          <li class="relative md:pl-10">
+            <span class="hidden md:block absolute left-0 top-2 h-3.5 w-3.5 rounded-full bg-slate-600 ring-4 ring-slate-950" aria-hidden="true"></span>
+            <article class="group rounded-lg border border-slate-800 bg-slate-900/40 hover:border-slate-700 transition-colors p-6">
+              <header class="flex items-baseline justify-between gap-4">
+                <h3 class="text-lg font-semibold text-white leading-snug min-w-0">
+                  Resident Assistant
+                  <span class="text-slate-400 font-normal"> · University of South Florida</span>
+                </h3>
+                <div class="shrink-0 text-right font-mono text-xs uppercase tracking-wider whitespace-nowrap">
+                  <p class="text-slate-400">Fall 2024 – Present</p>
+                </div>
+              </header>
+              <p class="mt-3 text-slate-300 leading-relaxed">
+                Supervise residents in a campus dormitory, respond to time-sensitive incidents on rotating overnight on-call shifts, and plan community programming.
+              </p>
+            </article>
+          </li>
+
+          <li class="relative md:pl-10">
+            <span class="hidden md:block absolute left-0 top-2 h-3.5 w-3.5 rounded-full bg-slate-600 ring-4 ring-slate-950" aria-hidden="true"></span>
+            <article class="group rounded-lg border border-slate-800 bg-slate-900/40 hover:border-slate-700 transition-colors p-6">
+              <header class="flex items-baseline justify-between gap-4">
+                <h3 class="text-lg font-semibold text-white leading-snug min-w-0">
+                  Funding Committee Chair
+                  <span class="text-slate-400 font-normal"> · USF Sarasota-Manatee Student Government</span>
+                </h3>
+                <div class="shrink-0 text-right font-mono text-xs uppercase tracking-wider whitespace-nowrap">
+                  <p class="text-slate-400">Fall 2025 – Present</p>
+                </div>
+              </header>
+              <p class="mt-3 text-slate-300 leading-relaxed">
+                Chair the committee overseeing allocation of $2M in student fees across campus organizations and initiatives.
+              </p>
+            </article>
+          </li>
+
+          <li class="relative md:pl-10">
+            <span class="hidden md:block absolute left-0 top-2 h-3.5 w-3.5 rounded-full bg-slate-600 ring-4 ring-slate-950" aria-hidden="true"></span>
+            <article class="group rounded-lg border border-slate-800 bg-slate-900/40 hover:border-slate-700 transition-colors p-6">
+              <header class="flex items-baseline justify-between gap-4">
+                <h3 class="text-lg font-semibold text-white leading-snug min-w-0">
+                  Business IT Specialist
+                  <span class="text-slate-400 font-normal"> · Coblentz Technology LLC</span>
+                </h3>
+                <div class="shrink-0 text-right font-mono text-xs uppercase tracking-wider whitespace-nowrap">
+                  <p class="text-slate-400">Summer 2025</p>
+                  <p class="text-slate-500 mt-0.5">Millersburg, OH</p>
+                </div>
+              </header>
+              <p class="mt-3 text-slate-300 leading-relaxed">
+                Performed structured cabling and hardware installation, configured wireless networks and access points, and troubleshot Layer 1 network issues.
+              </p>
+            </article>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="border-t border-slate-800/60">
+      <div class="max-w-5xl mx-auto px-6 py-20">
+        <div class="flex items-center gap-4 mb-10">
+          <h2 class="text-2xl sm:text-3xl font-semibold text-white tracking-tight">Projects</h2>
+          <div class="flex-1 h-px section-rule"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <article class="rounded-lg border border-slate-800 bg-slate-900/40 hover:border-accent/40 transition-colors p-6 flex flex-col">
+            <p class="font-mono text-xs uppercase tracking-wider text-accent mb-2">Forensics</p>
+            <h3 class="text-lg font-semibold text-white">Incident Response &amp; Forensic Analysis</h3>
+            <p class="mt-3 text-slate-300 leading-relaxed flex-1">
+              Performed forensic analysis of a multi-stage cyberattack using Wireshark and PCAP data to identify credential compromise, lateral movement, and command-and-control activity. Reconstructed the full attack timeline mapped to known threat patterns.
+            </p>
+            <ul class="mt-4 flex flex-wrap gap-2">
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-300">Wireshark</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-300">PCAP</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-300">Network Forensics</li>
+            </ul>
+          </article>
+
+          <article class="rounded-lg border border-slate-800 bg-slate-900/40 hover:border-accent/40 transition-colors p-6 flex flex-col">
+            <p class="font-mono text-xs uppercase tracking-wider text-accent mb-2">Offensive</p>
+            <h3 class="text-lg font-semibold text-white">Vulnerability Assessment &amp; Penetration Testing</h3>
+            <p class="mt-3 text-slate-300 leading-relaxed flex-1">
+              Conducted network vulnerability assessments using Nmap/Zenmap and Nessus to identify misconfigurations and weak authentication. Prioritized findings by risk and developed remediation recommendations.
+            </p>
+            <ul class="mt-4 flex flex-wrap gap-2">
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-300">Nmap</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-300">Nessus</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-300">Risk Analysis</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="border-t border-slate-800/60">
+      <div class="max-w-5xl mx-auto px-6 py-20">
+        <div class="flex items-center gap-4 mb-10">
+          <h2 class="text-2xl sm:text-3xl font-semibold text-white tracking-tight">Skills</h2>
+          <div class="flex-1 h-px section-rule"></div>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="rounded-lg border border-slate-800 bg-slate-900/40 p-5">
+            <h3 class="font-mono text-xs uppercase tracking-wider text-accent">Security &amp; Networking</h3>
+            <ul class="mt-3 flex flex-wrap gap-2">
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">TCP/IP</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">Wireshark</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">Nmap</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">Nessus</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">PCAP analysis</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">Network forensics</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">Vulnerability assessment</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">Windows Event Viewer</li>
+            </ul>
+          </div>
+
+          <div class="rounded-lg border border-slate-800 bg-slate-900/40 p-5">
+            <h3 class="font-mono text-xs uppercase tracking-wider text-accent">Programming &amp; Scripting</h3>
+            <ul class="mt-3 flex flex-wrap gap-2">
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">SQL</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">Python</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">HTML</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">CSS</li>
+            </ul>
+          </div>
+
+          <div class="rounded-lg border border-slate-800 bg-slate-900/40 p-5">
+            <h3 class="font-mono text-xs uppercase tracking-wider text-accent">Databases &amp; Backend</h3>
+            <ul class="mt-3 flex flex-wrap gap-2">
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">PostgreSQL</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">REST APIs</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">Webhooks</li>
+            </ul>
+          </div>
+
+          <div class="rounded-lg border border-slate-800 bg-slate-900/40 p-5">
+            <h3 class="font-mono text-xs uppercase tracking-wider text-accent">Tools</h3>
+            <ul class="mt-3 flex flex-wrap gap-2">
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">Git</li>
+              <li class="text-xs font-mono px-2 py-1 rounded-md bg-slate-800/80 text-slate-200">GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AWARDS -->
+    <section id="awards" class="border-t border-slate-800/60">
+      <div class="max-w-5xl mx-auto px-6 py-20">
+        <div class="flex items-center gap-4 mb-10">
+          <h2 class="text-2xl sm:text-3xl font-semibold text-white tracking-tight">Awards</h2>
+          <div class="flex-1 h-px section-rule"></div>
+        </div>
+
+        <ul class="space-y-4">
+          <li class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 border-l-2 border-accent/60 pl-4">
+            <div>
+              <p class="text-white font-medium">Rising Bull Award</p>
+              <p class="text-slate-400 text-sm">Campus Involvement Leadership Awards</p>
+            </div>
+            <p class="font-mono text-xs uppercase tracking-wider text-slate-500">Spring 2026</p>
+          </li>
+          <li class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 border-l-2 border-accent/60 pl-4">
+            <div>
+              <p class="text-white font-medium">Student Leadership Award</p>
+              <p class="text-slate-400 text-sm">Muma Digital Business Awards</p>
+            </div>
+            <p class="font-mono text-xs uppercase tracking-wider text-slate-500">Spring 2026</p>
+          </li>
+          <li class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 border-l-2 border-slate-700 pl-4">
+            <div>
+              <p class="text-white font-medium">Outstanding Emerging Leader</p>
+              <p class="text-slate-400 text-sm">Campus Involvement Leadership Awards</p>
+            </div>
+            <p class="font-mono text-xs uppercase tracking-wider text-slate-500">Spring 2025</p>
+          </li>
+          <li class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 border-l-2 border-slate-700 pl-4">
+            <div>
+              <p class="text-white font-medium">IACM Student Spotlight Representative</p>
+              <p class="text-slate-400 text-sm">USF Muma College of Business</p>
+            </div>
+            <p class="font-mono text-xs uppercase tracking-wider text-slate-500">Fall 2025</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="border-t border-slate-800/60">
+      <div class="max-w-5xl mx-auto px-6 py-20">
+        <div class="flex items-center gap-4 mb-10">
+          <h2 class="text-2xl sm:text-3xl font-semibold text-white tracking-tight">Contact</h2>
+          <div class="flex-1 h-px section-rule"></div>
+        </div>
+
+        <div class="rounded-xl border border-slate-800 bg-gradient-to-br from-slate-900/60 to-slate-900/20 p-8 sm:p-10">
+          <p class="text-slate-300 max-w-2xl leading-relaxed">
+            I'm actively looking for a summer 2026 internship and happy to talk to recruiters, hiring managers, or anyone working in cybersecurity, network defense, or security engineering. The fastest way to reach me is email.
+          </p>
+
+          <div class="mt-8 grid sm:grid-cols-3 gap-4">
+            <a href="mailto:lukecoblentz.dev@gmail.com" class="group rounded-lg border border-slate-800 bg-slate-950/40 hover:border-accent transition-colors p-5">
+              <p class="font-mono text-xs uppercase tracking-wider text-slate-500 group-hover:text-accent transition-colors">Email</p>
+              <p class="mt-2 text-slate-100 break-all">lukecoblentz.dev@gmail.com</p>
+            </a>
+            <a href="https://www.linkedin.com/in/luke-coblentz-99a6a7292/" target="_blank" rel="noopener noreferrer" class="group rounded-lg border border-slate-800 bg-slate-950/40 hover:border-accent transition-colors p-5">
+              <p class="font-mono text-xs uppercase tracking-wider text-slate-500 group-hover:text-accent transition-colors">LinkedIn</p>
+              <p class="mt-2 text-slate-100">/in/luke-coblentz</p>
+            </a>
+            <a href="https://github.com/lukecoblentz" target="_blank" rel="noopener noreferrer" class="group rounded-lg border border-slate-800 bg-slate-950/40 hover:border-accent transition-colors p-5">
+              <p class="font-mono text-xs uppercase tracking-wider text-slate-500 group-hover:text-accent transition-colors">GitHub</p>
+              <p class="mt-2 text-slate-100">@lukecoblentz</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-slate-800/60">
+    <div class="max-w-5xl mx-auto px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+      <p>&copy; 2026 Luke Coblentz</p>
+      <ul class="flex items-center gap-6">
+        <li><a class="hover:text-accent transition-colors" href="mailto:lukecoblentz.dev@gmail.com">Email</a></li>
+        <li><a class="hover:text-accent transition-colors" href="https://www.linkedin.com/in/luke-coblentz-99a6a7292/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a class="hover:text-accent transition-colors" href="https://github.com/lukecoblentz" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
